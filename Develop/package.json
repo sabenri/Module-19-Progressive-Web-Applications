@@ -1,15 +1,16 @@
 {
-  "name": "JATE",
+  "name": "module-19-progressive-web-applications",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "start:dev": "",
-    "start": "",
-    "server": "",
-    "build": "",
-    "install": "",
-    "client": ""
+
+    "scripts": {
+    "start:dev": "webpack serve --config webpack.config.js --mode development",
+    "start": "npm run server & npm run client",
+    "server": "node server.js",
+    "build": "webpack --config webpack.config.js --mode production",
+    "install": "npm install",
+    "client": "webpack --config webpack.config.js"
   },
   "keywords": [],
   "author": "",
