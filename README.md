@@ -38,13 +38,13 @@ Copy code
 npm start
 This will start both the client and server on your local machine. The app will be available at http://localhost:3000.
 
-  ##Usage
+  ## Usage
  Once the server is running, open a browser and navigate to http://localhost:3000.
 Write or edit text in the editor. Your content will be automatically saved to IndexedDB when you click off the window or navigate away.
 If you reopen the application, the content you saved will be retrieved from IndexedDB.
 You can also install the app as a desktop PWA by clicking the "Install" button in the browser (if supported).
 
-  ##Features
+  ## Features
 Offline Access: The app can be used offline, with the help of service workers and IndexedDB.
 
 Automatic Saving: Text is saved to the IndexedDB when the user leaves the page or window.
